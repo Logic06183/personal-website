@@ -1,4 +1,8 @@
+import React from 'react';
 import PersonalWebsite from './components/PersonalWebsite';
-export default function App() {
+
+function App() {
   return <PersonalWebsite />;
 }
+
+export default App;

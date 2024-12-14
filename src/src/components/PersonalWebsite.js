@@ -1,13 +1,23 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
-import { ExternalLink } from 'react-icons/fa'; // Example import, adjust as needed
+import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 
 const PersonalWebsite = () => {
   const projects = [
-    // Example project data
-    { title: 'Project 1', description: 'Description 1', link: 'http://example.com' },
-    { title: 'Project 2', description: 'Description 2', link: 'http://example.com' },
-    { title: 'Project 3', description: 'Description 3', link: 'http://example.com' },
+    {
+      title: 'Project One',
+      description: 'A full-stack web application built with React and Node.js',
+      link: '#'
+    },
+    {
+      title: 'Project Two', 
+      description: 'Mobile app developed using React Native',
+      link: '#'
+    },
+    {
+      title: 'Project Three',
+      description: 'Machine learning model for predictive analytics',
+      link: '#'
+    }
   ];
 
   const experiences = [
